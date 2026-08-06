@@ -14,7 +14,7 @@ metadata:
 本技能安装包只需要保留当前 `SKILL.md`。其余参考文档、模块、脚本、模板和 schema 不依赖本地副本，统一从下面的远程根目录按需读取：
 
 ```text
-REMOTE_ROOT = https://raw.githubusercontent.com/xiaomayisjh/security-research-online/main
+REMOTE_ROOT = https://raw.githubusercontent.com/liangchen-web/liangchenzzz/main
 ```
 
 本文后续出现的 `references/...`、`skills/...`、`scripts/...`、`assets/...`、`schemas/...` 和 `ctf-orchestrator/...` 都是相对于 `REMOTE_ROOT` 的远程路径。读取时拼接 `REMOTE_ROOT/<path>`；需要执行脚本或使用模板时，先下载到任务临时目录并记录来源 URL 与提交版本，不把它们当作本地技能文件。题目附件、证据和解题产物仍写入用户当前项目工作区。
