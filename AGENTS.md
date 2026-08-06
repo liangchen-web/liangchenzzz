@@ -5,7 +5,7 @@
 For reverse engineering, security research, and CTF tasks, fetch and read these cloud files first, in order:
 
 ```text
-REMOTE_ROOT = https://raw.githubusercontent.com/liangchen-web/lc-secfox/main
+REMOTE_ROOT = https://raw.githubusercontent.com/xiaomayisjh/security-research-online/main
 ```
 
 1. `REMOTE_ROOT/RULES.md`
